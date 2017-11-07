@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <!--ppt 1-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Backhand Lanjutan"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <!--ppt 2-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Volley Lanjutan"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <!--ppt 3-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Forehand Lanjutan"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <!--ppt 4-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Latihan Fisik Tenis"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <!--ppt 5-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Servis Lanjutan"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <!--ppt 6-->
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginBottom="30dp"
+           app:cardCornerRadius="5dp">
+
+           <LinearLayout
+               android:id="@+id/ppt6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:src="@drawable/pptx"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Tehnik Dasar Tenis"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="7pt"
+                   android:layout_marginLeft="20dp"/>
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+   </LinearLayout>
+
+</ScrollView>
