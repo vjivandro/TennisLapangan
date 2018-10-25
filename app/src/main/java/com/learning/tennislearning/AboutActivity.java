@@ -2,6 +2,8 @@ package com.learning.tennislearning;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -25,6 +27,7 @@ public class AboutActivity extends AppCompatActivity {
     private ImageView imageViewExpand;
 
     private static final int DURATION = 250;
+    String versionName = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,21 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //versi
+
+        int versionCode = -1;
+        try {
+            PackageInfo packageInfo = this.getPackageManager().
+                    getPackageInfo(this.getPackageName(), 0);
+            versionName = packageInfo.versionName;
+            versionCode = packageInfo.versionCode;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+
+        }
+
+        //versionTv.setText("Versi : "+String.format(versionName));
 
         Button dev = (Button) findViewById(R.id.code);
         dev.setOnClickListener(new View.OnClickListener() {
@@ -80,7 +98,7 @@ public class AboutActivity extends AppCompatActivity {
                 AlertDialog.Builder alert = new AlertDialog.Builder(about);
                 alert.setTitle("Build Version");
                 alert.setIcon(R.drawable.versi);
-                alert.setMessage("Version Beta 1.0 ");
+                alert.setMessage("Versi " + versionName);
                 alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 
                     @Override
