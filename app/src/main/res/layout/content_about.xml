@@ -191,14 +191,6 @@
                             android:padding="10dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/versi"/>
-
-                        <Button
-                            android:id="@+id/term"
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
-                            android:padding="10dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/term"/>
                     </LinearLayout>
                 </LinearLayout>
 

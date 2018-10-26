@@ -111,26 +111,6 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
-        Button ter = (Button) findViewById(R.id.term);
-        ter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder alert = new AlertDialog.Builder(about);
-                alert.setTitle("Term & Policies");
-                alert.setIcon(R.drawable.term);
-                alert.setMessage(R.string.term);
-                alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
-                AlertDialog dialog = alert.create();
-                dialog.show();
-            }
-        });
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
